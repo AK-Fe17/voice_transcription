@@ -2,6 +2,7 @@ class TranscriptionsController < ApplicationController
   def index
   end
 
+  # Create a new transcription record
   def create
     transcription = Transcription.create!(transcription_params)
 
